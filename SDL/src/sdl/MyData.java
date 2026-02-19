@@ -14,17 +14,15 @@ public class MyData {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // perbaikan dari teol
+                // perbaikan dari teol
             int[] array = {1,2,3,4,5,6,7,8,9,10};
             int total = 0;
             for(int i = 0;i < array.length; i++) {
                 total += array[i];
-            }
-            double rerata = (double) total/array.length;
+    }
+                double rerata = (double) total/array.length;
             System.out.println("Array = " + array);
             System.out.println("Penjumlahan variabel tersebut adalah = " + total);
             System.out.println("Rata rata = " + rerata);
-            
-    }
-    
+}
 }
