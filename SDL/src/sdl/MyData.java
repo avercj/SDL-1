@@ -15,8 +15,16 @@ public class MyData {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("INi program");
-        System.out.println("test....");
+            int[] array = {1,2,3,4,5,6,7,8,9,10};
+            int total = 0;
+            for(int i = 0;i < array.length; i++) {
+                total += array[i];
+            }
+            double rerata = (double) total/array.length;
+            System.out.println("Array = " + array);
+            System.out.println("Penjumlahan variabel tersebut adalah = " + total);
+            System.out.println("Rata rata = " + rerata);
+            
     }
     
 }
